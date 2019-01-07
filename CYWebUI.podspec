@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CYWebUI'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CYWebUI.'
+  s.summary          = '方便加载网页，自用.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    自己方便加载网页，不想每次重写代码，就这样吧。
                        DESC
 
-  s.homepage         = 'https://github.com/mastercy919@hotmail.com/CYWebUI'
+  s.homepage         = 'https://github.com/Careyang/CYWebUI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mastercy919@hotmail.com' => 'mastercy919@hotmail.com' }
-  s.source           = { :git => 'https://github.com/mastercy919@hotmail.com/CYWebUI.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Careyang/CYWebUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
