@@ -7,18 +7,12 @@
 //
 
 #import "CYAppDelegate.h"
-#import "CYWebUI-umbrella.h"
-
 
 @implementation CYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-
-    WebViewController * wb = [WebViewController ];
-    self.window.rootViewController = wb;
-    [self.window makeKeyAndVisible];
     return YES;
 }
 
